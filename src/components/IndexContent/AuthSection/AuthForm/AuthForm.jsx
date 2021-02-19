@@ -60,7 +60,7 @@ const AuthForm = (props) => {
           <label styleName="text-field__label" htmlFor="password">
             Пароль:
           </label>
-          <Input id="password" type="text" name="password"
+          <Input.Password id="password" type="text" name="password"
                  value={formik.values.password} onChange={formik.handleChange}/>
         </p>
         <br/>

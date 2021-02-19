@@ -1,11 +1,13 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './Preloader.module.css';
+import {Spin} from "antd";
 
 const Preloader = (props) => {
   return (
     <div styleName="preloader-container">
-      Грузимся...
+      <br/><br/>
+      <Spin size="large" />
     </div>
   );
 }
