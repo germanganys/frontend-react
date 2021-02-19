@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:9001/lab4/lk/'
+  baseURL: 'http://134.0.115.32:8080/lab4/lk/'
 });
 
 const authAPI = {
